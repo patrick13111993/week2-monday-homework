@@ -9,11 +9,11 @@ class TestPerson < Minitest::Test
   end
 
   def test_person_name
-    assert_equal('Patrick',@person.name)
+    assert_equal('Patrick',@person.name())
   end
 
   def test_person_age
-    assert_equal(22,@person.age)
+    assert_equal(22,@person.age())
   end
 end
 
